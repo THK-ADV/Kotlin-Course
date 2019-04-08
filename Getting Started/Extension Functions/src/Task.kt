@@ -1,0 +1,1 @@
+fun String.capitalize() = this.replaceFirst(this.first(), this.first().toUpperCase())

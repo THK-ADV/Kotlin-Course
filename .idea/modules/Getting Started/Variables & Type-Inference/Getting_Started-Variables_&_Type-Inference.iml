@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Getting_Started-Variables_&amp;_Type-Inference" external.linked.project.path="$MODULE_DIR$/../../../../Getting Started/Variables &amp; Type-Inference" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Kotlin" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Getting Started/Variables &amp; Type-Inference">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Getting Started/Variables &amp; Type-Inference/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Getting Started/Variables &amp; Type-Inference/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Getting Started/Variables &amp; Type-Inference/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

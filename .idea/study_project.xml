@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="13" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <EduCourse>
+          <option name="authors">
+            <list>
+              <StepikUserInfo>
+                <option name="firstName" value="Florian" />
+                <option name="id" value="-1" />
+                <option name="lastName" value="Herborn" />
+              </StepikUserInfo>
+            </list>
+          </option>
+          <option name="compatible" value="true" />
+          <option name="courseMode" value="Course Creator" />
+          <option name="courseType" value="PyCharm" />
+          <option name="customPresentableName" />
+          <option name="description" value="A Kotlin course for beginners" />
+          <option name="fromZip" value="false" />
+          <option name="id" value="0" />
+          <option name="index" value="-1" />
+          <option name="instructors">
+            <list />
+          </option>
+          <option name="language" value="kotlin" />
+          <option name="languageCode" value="en" />
+          <option name="loadSolutions" value="true" />
+          <option name="name" value="Kotlin" />
+          <option name="public" value="false" />
+          <option name="sectionIds">
+            <list />
+          </option>
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="type" value="pycharm10 kotlin" />
+          <option name="updateDate" value="0" />
+          <option name="items">
+            <list>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Getting Started" />
+                <option name="stepikChangeStatus" value="Content changed" />
+                <option name="updateDate" value="0" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Schreibe eine Funktion namens &quot;main&quot;, welche &quot;Hello World&quot; in der Konsole ausgibt.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;!-- Hint here --&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Hello World" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="fun main() {&#10;    println(&quot;Hello World&quot;)&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Variables &amp; Type-Inference" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Schreibe eine Funktion namens &quot;printName&quot;, die den übergebenen Namen in der Form: &quot;Name: [name]&quot; in der Konsole ausgibt.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;!--Hint Here--&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Output &amp; String-Template" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="34" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="println(&quot;Name: $name&quot;)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="4" />
+                      <option name="name" value="Functions" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="fun printSum(v1: Int, v2: Int) {&#10;    println(v1 + v2)&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="57" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="fun sum(v1: Int, v2: Int) = v1 + v2" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="5" />
+                      <option name="name" value="Default Parameters" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="fun getFullName(firstName: String, lastName: String, birthName: String = lastName) = &quot;$firstName $lastName ($birthName)&quot;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Erstelle eine Liste mit den String &lt;i&gt;&quot;A&quot;&lt;/i&gt;, &lt;i&gt;&quot;B&quot;&lt;/i&gt; und &lt;i&gt;&quot;C&quot;&lt;/i&gt;&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;!-- Hint here --&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="6" />
+                      <option name="name" value="Arrays &amp; Lists" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="25" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="listOf(&#10;        &quot;A&quot;,&#10;        &quot;B&quot;,&#10;        &quot;C&quot;&#10;)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="100" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="arrayOf(&#10;        &quot;A&quot;,&#10;        &quot;B&quot;,&#10;        &quot;C&quot;&#10;)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="7" />
+                      <option name="name" value="Function Types &amp; Lambdas" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="9" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="(Int, Int) -&gt; Int" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="74" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="values: List&lt;Int&gt;, v2: Int, operation: (Int, Int) -&gt; Int" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="134" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="values.map{ operation(it, v2) }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="211" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="operateOnEach(values, v2, sum)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="4" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="29" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="{ v1, v2 -&gt;&#10;    v1 + v2&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="8" />
+                      <option name="name" value="Extension Functions" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="fun String.capitalize() = this.replaceFirst(this.first(), this.first().toUpperCase())" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="9" />
+                      <option name="name" value="Classes" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="class Student(val id: Long, val name: String, var age: Int)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="0" />
+              </Lesson>
+            </list>
+          </option>
+        </EduCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

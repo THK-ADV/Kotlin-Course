@@ -1,0 +1,251 @@
+{
+  "summary" : "A Kotlin course for beginners",
+  "title" : "Kotlin",
+  "programming_language" : "kotlin",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [
+    {
+      "title" : "Getting Started",
+      "task_list" : [
+        {
+          "name" : "Hello World",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 6,
+                  "possible_answer" : "fun main() {\n    println(\"Hello World\")\n}",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "TODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After\nimport org.junit.Assert.assertEquals\nimport org.junit.Before\nimport org.junit.Test\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\n\nclass Test {\n\n    private val outStream = ByteArrayOutputStream()\n    private val originalOut = System.out\n\n    @Before\n    fun setUpStreams() {\n        System.setOut(PrintStream(outStream))\n    }\n\n    @After\n    fun restoreStreams() {\n        System.setOut(originalOut)\n    }\n\n    @Test\n    fun testSolution() {\n        main()\n        assertEquals(\"Hello World\\n\", outStream.toString())\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nSchreibe eine Funktion namens \"main\", welche \"Hello World\" in der Konsole ausgibt.\n<br>\n<br>\n<div class=\"hint\">\n  <!-- Hint here -->\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Variables & Type-Inference",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "var age = 18\nvar size = 182.5\nval name = \"Hans\""
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert.assertEquals\nimport org.junit.Assert.assertTrue\nimport org.junit.Test\n\nclass Test {\n    @Test fun testSolution() {\n\n        assertTrue(age is Int)\n        assertTrue(size is Double)\n        assertTrue(name is String)\n\n        assertEquals(age, 18)\n        assertTrue(size.equals(182.5))\n        assertEquals(name, \"Hans\")\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Output & String-Template",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 34,
+                  "length" : 6,
+                  "possible_answer" : "println(\"Name: $name\")",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun printName(name: String) {\n    TODO()\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After\nimport org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Before\nimport org.junit.Test\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\n\nclass Test {\n\n    private val outStream = ByteArrayOutputStream()\n    private val originalOut = System.out\n\n    @Before\n    fun setUpStreams() {\n        System.setOut(PrintStream(outStream))\n    }\n\n    @After\n    fun restoreStreams() {\n        System.setOut(originalOut)\n    }\n\n    @Test\n    fun testSolution() {\n        val name = \"Paul\"\n        printName(name)\n        Assert.assertEquals(\"Name: $name\\n\", outStream.toString())\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nSchreibe eine Funktion namens \"printName\", die den übergebenen Namen in der Form: \"Name: [name]\" in der Konsole ausgibt.\n<br>\n<br>\n<div class=\"hint\">\n  <!--Hint Here-->\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Functions",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 6,
+                  "possible_answer" : "fun printSum(v1: Int, v2: Int) {\n    println(v1 + v2)\n}",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 8,
+                  "length" : 6,
+                  "possible_answer" : "fun sum(v1: Int, v2: Int) = v1 + v2",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "TODO()\n\nTODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After\nimport org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Before\nimport org.junit.Test\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n\n\n    private val outStream = ByteArrayOutputStream()\n    private val originalOut = System.out\n\n    @Before\n    fun setUpStreams() {\n        System.setOut(PrintStream(outStream))\n    }\n\n    @After\n    fun restoreStreams() {\n        System.setOut(originalOut)\n    }\n\n    @Test fun testPrintSum() {\n        val v1 = 1\n        val v2 = 5\n        printSum(v1, v2)\n        assertEquals(\"${v1 + v2}\\n\", outStream.toString())\n    }\n\n    @Test fun testSum() {\n        val v1 = 1\n        val v2 = 5\n        assertEquals(sum(v1, v2), v1 + v2)\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Default Parameters",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 6,
+                  "possible_answer" : "fun getFullName(firstName: String, lastName: String, birthName: String = lastName) = \"$firstName $lastName ($birthName)\"",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "TODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Test\n\nclass Test {\n    @Test fun testParam() {\n        val firstName = \"Peter\"\n        val lastName = \"Petersen\"\n        val birthName = \"Lustig\"\n        assertEquals(getFullName(firstName, lastName, birthName), \"$firstName $lastName ($birthName)\")\n    }\n\n    @Test fun testDefault() {\n        val firstName = \"Peter\"\n        val lastName = \"Petersen\"\n        assertEquals(getFullName(firstName, lastName), \"$firstName $lastName ($lastName)\")\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Arrays & Lists",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 25,
+                  "length" : 6,
+                  "possible_answer" : "listOf(\n        \"A\",\n        \"B\",\n        \"C\"\n)",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 59,
+                  "length" : 6,
+                  "possible_answer" : "arrayOf(\n        \"A\",\n        \"B\",\n        \"C\"\n)",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun createStringList() = TODO()\n\nfun createStringArray() = TODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert.*\nimport org.junit.Test\n\nclass Test {\n    @Test fun testList() {\n        assertEquals(createStringList(), listOf(\"A\", \"B\", \"C\"))\n    }\n\n    @Test fun testArray() {\n        assertEquals(createStringArray(), arrayOf(\"A\", \"B\", \"C\"))\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nErstelle eine Liste mit den String <i>\"A\"</i>, <i>\"B\"</i> und <i>\"C\"</i>\n<br>\n<br>\n<div class=\"hint\">\n  <!-- Hint here -->\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Variable & Function Types",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 9,
+                  "length" : 6,
+                  "possible_answer" : "(Int, Int) -> Int = { v1, v2 ->\n    v1 + v2\n}",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 34,
+                  "length" : 6,
+                  "possible_answer" : "(values: List<Int>, v2: Int, operation: (Int, Int) -> Int) = values.map{ operation(it, v2) }",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 86,
+                  "length" : 6,
+                  "possible_answer" : "operateOnEach(values, v2, sum)",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "val sum: TODO()\n\nfun operateOnEachTODO()\n\nfun sumOnEach(values: List<Int>, v2: Int) = TODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Test\n\nclass Test {\n\n    @Test fun testSum() {\n        val v1 = 1\n        val v2 = 6\n        assertEquals(sum(v1, v2), v1 + v2)\n    }\n\n    @Test fun testOperateOnEach() {\n        val list = listOf(1, 2, 3, 4, 5)\n        val v2 = 2\n        assertEquals(operateOnEach(list, v2) { val1, val2 -> val1 + val2 }, list.map { it + v2 })\n    }\n\n    @Test fun testSumOnEach() {\n        val list = listOf(1, 2, 3, 4, 5)\n        val v2 = 2\n        assertEquals(sumOnEach(list, v2), list.map { it + v2 })\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "buildscript {\n    ext.kotlin_version = '1.3.21'\n\n    repositories {\n        mavenCentral()\n        \n    }\n\n    dependencies {\n        classpath \"org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version\"\n    }\n}\n\ndef printOutput(def output) {\n    return tasks.create(\"printOutput\") {\n        for (line in output.toString().readLines()) {\n            println \"#educational_plugin\" + line\n        }\n    }\n}\n\nsubprojects {\n    apply plugin: 'application'\n    apply plugin: 'java'\n    apply plugin: 'kotlin'\n\n    sourceCompatibility = 1.8\n\n    repositories {\n        mavenCentral()\n        \n    }\n\n    dependencies {\n        compile \"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version\"\n        testCompile group: 'junit', name: 'junit', version: '4.12'\n    }\n\n    compileKotlin.destinationDir = compileJava.destinationDir\n\n    compileKotlin {\n        kotlinOptions.jvmTarget = \"1.8\"\n    }\n    compileTestKotlin {\n        kotlinOptions.jvmTarget = \"1.8\"\n    }\n\n    sourceSets {\n        main {\n            kotlin.srcDir 'src'\n            java.srcDir 'src'\n        }\n        test {\n            kotlin.srcDir 'test'\n            java.srcDir 'test'\n        }\n    }\n\n    mainClassName = project.hasProperty(\"mainClass\") ? project.getProperty(\"mainClass\") : \"\"\n\n    test {\n        outputs.upToDateWhen { false }\n        afterTest { TestDescriptor test, TestResult result ->\n            if (result.resultType == TestResult.ResultType.FAILURE) {\n                def message = result.exception?.message ?: \"Wrong answer\"\n                def lines = message.readLines()\n                println \"#educational_plugin FAILED + \" + lines[0]\n                lines[1..-1].forEach { line ->\n                    println \"#educational_plugin\" + line\n                }\n                // we need this to separate output of different tests\n                println\n            }\n        }\n    }\n\n    def runOutput = new ByteArrayOutputStream()\n    tasks.run.setStandardOutput(runOutput)\n    tasks.run.doLast { printOutput(runOutput) }\n}\n\nproject(':util') {\n    dependencies {\n        compile group: 'junit', name: 'junit', version: '4.12'\n    }\n}\n\nconfigure(subprojects.findAll {it.name != 'util'}) {\n  dependencies {\n    compile project(':util').sourceSets.main.output\n    testCompile project(':util').sourceSets.test.output\n  }\n}\n\ntask wrapper(type: Wrapper) {\n  gradleVersion = '4.8'\n}\n"
+    }
+  ],
+  "version" : 10
+}

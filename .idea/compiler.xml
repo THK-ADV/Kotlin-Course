@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Getting_Started-Arrays_&amp;_Lists_main" target="1.8" />
+      <module name="Getting_Started-Arrays_&amp;_Lists_test" target="1.8" />
+      <module name="Getting_Started-Classes_main" target="1.8" />
+      <module name="Getting_Started-Classes_test" target="1.8" />
+      <module name="Getting_Started-Default_Parameters_main" target="1.8" />
+      <module name="Getting_Started-Default_Parameters_test" target="1.8" />
+      <module name="Getting_Started-Extension_Functions_main" target="1.8" />
+      <module name="Getting_Started-Extension_Functions_test" target="1.8" />
+      <module name="Getting_Started-Function_Types_&amp;_Lambdas_main" target="1.8" />
+      <module name="Getting_Started-Function_Types_&amp;_Lambdas_test" target="1.8" />
+      <module name="Getting_Started-Functions_main" target="1.8" />
+      <module name="Getting_Started-Functions_test" target="1.8" />
+      <module name="Getting_Started-Hello_World_main" target="1.8" />
+      <module name="Getting_Started-Hello_World_test" target="1.8" />
+      <module name="Getting_Started-List_main" target="1.8" />
+      <module name="Getting_Started-List_test" target="1.8" />
+      <module name="Getting_Started-Output_&amp;_String-Template_main" target="1.8" />
+      <module name="Getting_Started-Output_&amp;_String-Template_test" target="1.8" />
+      <module name="Getting_Started-String_Template_main" target="1.8" />
+      <module name="Getting_Started-String_Template_test" target="1.8" />
+      <module name="Getting_Started-task1_main" target="1.8" />
+      <module name="Getting_Started-task1_test" target="1.8" />
+      <module name="Getting_Started-Variable_&amp;_Function_Types_main" target="1.8" />
+      <module name="Getting_Started-Variable_&amp;_Function_Types_test" target="1.8" />
+      <module name="Getting_Started-Variables_&amp;_Type-Inference_main" target="1.8" />
+      <module name="Getting_Started-Variables_&amp;_Type-Inference_test" target="1.8" />
+      <module name="Getting_Started-Variables_main" target="1.8" />
+      <module name="Getting_Started-Variables_test" target="1.8" />
+      <module name="lesson1-task1_main" target="1.8" />
+      <module name="lesson1-task1_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

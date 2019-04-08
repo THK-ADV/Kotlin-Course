@@ -1,0 +1,1 @@
+class Student(val id: Long, val name: String, var age: Int)
