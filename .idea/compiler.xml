@@ -4,8 +4,16 @@
     <bytecodeTargetLevel>
       <module name="Getting_Started-Arrays_&amp;_Lists_main" target="1.8" />
       <module name="Getting_Started-Arrays_&amp;_Lists_test" target="1.8" />
+      <module name="Getting_Started-Casting_&amp;_When_main" target="1.8" />
+      <module name="Getting_Started-Casting_&amp;_When_test" target="1.8" />
+      <module name="Getting_Started-Casting_main" target="1.8" />
+      <module name="Getting_Started-Casting_test" target="1.8" />
       <module name="Getting_Started-Classes_main" target="1.8" />
       <module name="Getting_Started-Classes_test" target="1.8" />
+      <module name="Getting_Started-Companion_Objects_main" target="1.8" />
+      <module name="Getting_Started-Companion_Objects_test" target="1.8" />
+      <module name="Getting_Started-Custom_Setter_&amp;_Getter_main" target="1.8" />
+      <module name="Getting_Started-Custom_Setter_&amp;_Getter_test" target="1.8" />
       <module name="Getting_Started-Default_Parameters_main" target="1.8" />
       <module name="Getting_Started-Default_Parameters_test" target="1.8" />
       <module name="Getting_Started-Extension_Functions_main" target="1.8" />
@@ -16,8 +24,12 @@
       <module name="Getting_Started-Functions_test" target="1.8" />
       <module name="Getting_Started-Hello_World_main" target="1.8" />
       <module name="Getting_Started-Hello_World_test" target="1.8" />
+      <module name="Getting_Started-Interfaces_main" target="1.8" />
+      <module name="Getting_Started-Interfaces_test" target="1.8" />
       <module name="Getting_Started-List_main" target="1.8" />
       <module name="Getting_Started-List_test" target="1.8" />
+      <module name="Getting_Started-Nullability_main" target="1.8" />
+      <module name="Getting_Started-Nullability_test" target="1.8" />
       <module name="Getting_Started-Output_&amp;_String-Template_main" target="1.8" />
       <module name="Getting_Started-Output_&amp;_String-Template_test" target="1.8" />
       <module name="Getting_Started-String_Template_main" target="1.8" />

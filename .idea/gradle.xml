@@ -10,11 +10,15 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Getting Started/Arrays &amp; Lists" />
             <option value="$PROJECT_DIR$/Getting Started/Classes" />
+            <option value="$PROJECT_DIR$/Getting Started/Companion Objects" />
+            <option value="$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter" />
             <option value="$PROJECT_DIR$/Getting Started/Default Parameters" />
             <option value="$PROJECT_DIR$/Getting Started/Extension Functions" />
             <option value="$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas" />
             <option value="$PROJECT_DIR$/Getting Started/Functions" />
             <option value="$PROJECT_DIR$/Getting Started/Hello World" />
+            <option value="$PROJECT_DIR$/Getting Started/Interfaces" />
+            <option value="$PROJECT_DIR$/Getting Started/Nullability" />
             <option value="$PROJECT_DIR$/Getting Started/Output &amp; String-Template" />
             <option value="$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference" />
             <option value="$PROJECT_DIR$/util" />
