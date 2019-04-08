@@ -53,7 +53,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Schreibe eine Funktion namens &quot;main&quot;, welche &quot;Hello World&quot; in der Konsole ausgibt.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;!-- Hint here --&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;main()&lt;/code&gt;,&#10;  welche in der Konsole den String &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Die Funktion &lt;code&gt;println()&lt;/code&gt; ist ein wrapper um die aus Java bekannte Funktion&#10;  &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -125,7 +125,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;age&lt;/code&gt; vom Typ &lt;code&gt;Int&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;18&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;size&lt;/code&gt; vom Typ &lt;code&gt;Double&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;182.5&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle ein finales &lt;b&gt;Value&lt;/b&gt; namens &lt;code&gt;name&lt;/code&gt; vom Typ &lt;code&gt;String&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;&quot;Hans&quot;&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    In Kotlin wird die Unterscheidung zwischen eines finalen und eines nicht finalen Variable mit Hilfe der Schlüsselwörter &lt;code&gt;val&lt;/code&gt; und &lt;code&gt;var&lt;/code&gt; gemacht.&#10;    &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -197,7 +197,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Schreibe eine Funktion namens &quot;printName&quot;, die den übergebenen Namen in der Form: &quot;Name: [name]&quot; in der Konsole ausgibt.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;!--Hint Here--&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;printName(...)&lt;/code&gt;,&#10;  welche einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -269,7 +269,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine Funktion namens &lt;code&gt;printSum(...)&lt;/code&gt;, welche zwei Integer entgegen nimmt und die Summe dieser in der Konsole ausgibt.&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine Funktion namens &lt;code&gt;sum(..)&lt;/code&gt;, welche zwei Integer entgegen nimmt und die Summe dieser zurück liefert.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;&#10;    Verwende für die Ausgabe die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;    &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;    &lt;br&gt;&#10;    &lt;code&gt;&quot;&amp;#60;Summe der Integer&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Funktionen die folgenden Aufbau haben:&#10;    &lt;br&gt;&#10;    &lt;code&gt;&#10;        fun a(): &amp;#60;T&amp;#62; {&#10;        return ...&#10;        }&#10;    &lt;/code&gt;&#10;    &lt;br&gt;&#10;    können in Kotlin abgekürzt werden durch:&#10;    &lt;br&gt;&#10;    &lt;code&gt;&#10;        fun a(): &amp;#60;T&amp;#62; = ...&#10;    &lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -358,7 +358,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;getFullName(...)&lt;/code&gt;, welche (in der richtigen Reihenfolge) folgende Werte entgegen nimmt:&#10;  &lt;br&gt;&#10;&lt;/p&gt;&#10;&lt;ol&gt;&#10;  &lt;li&gt;&lt;code&gt;firstName&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;  &lt;li&gt;&lt;code&gt;lastName&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;  &lt;li&gt;&lt;code&gt;birthName&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;&#10;  Dabei soll der Parameter &lt;code&gt;birthName&lt;/code&gt; als default value den Wert von &lt;code&gt;lastName&lt;/code&gt; erhalten.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Der Rückgabewert der Funktion sollte wiefolgt aussehen:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;&amp;#60;firstName&amp;#62; &amp;#60;lastName&amp;#62; (&amp;#60;birthName&amp;#62;)&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -430,7 +430,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Erstelle eine Liste mit den String &lt;i&gt;&quot;A&quot;&lt;/i&gt;, &lt;i&gt;&quot;B&quot;&lt;/i&gt; und &lt;i&gt;&quot;C&quot;&lt;/i&gt;&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  &lt;!-- Hint here --&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;createStringList()&lt;/code&gt; so, dass sie eine unveränderliche Liste mit den Strings &lt;code&gt;&quot;A&quot;, &quot;B&quot;, &quot;C&quot;&lt;/code&gt; zurück gibt.&lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;createStringArray()&lt;/code&gt; so, dass sie ein Array mit den Strings &lt;code&gt;&quot;A&quot;, &quot;B&quot;, &quot;C&quot;&lt;/code&gt; zurück gibt.&lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Kotlin bietet  globale Funktionen, die das Erstellen von Listen und Arrays vereinfachen.&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -519,7 +519,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine finale Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hällt, die zwei Initeger entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion, welche aus zwei Integern ein Integer macht&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -659,7 +659,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Extension Funktion&lt;/b&gt; namens &lt;code&gt;capitalize()&lt;/code&gt; für die Klasse &lt;code&gt;String&lt;/code&gt;, welche den String mit einem großen&#10;  Anfangsbuchstaben zurück gibt.&#10;&lt;/p&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Diese Funktion kann durch die Verkettung von Funktionen der String Klasse erreicht werden.&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -731,7 +731,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die finalen Parameter:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine Klasse &lt;code&gt;AddressBook&lt;/code&gt;, welche eine finale veränderliche Liste von Adressen im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;fun contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -837,7 +837,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine &lt;b&gt;Custom Setter&lt;/b&gt; für die Variable &lt;code&gt;denominator&lt;/code&gt;, die sicherstellt, dass nur Werte&#10;        gesetzt werden, die != 0 sind.&#10;        Andernfalls soll eine &lt;code&gt;IllegalArgumentException()&lt;/code&gt; geschmissen werden.&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine &lt;b&gt;Custom Getter&lt;/b&gt; für das Attribut &lt;code&gt;decimal&lt;/code&gt;, welche den Bruch als Dezimalzahl zurück gibt.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Auf das Baking-Field einer Variable kann über das Keyword &lt;code&gt;field&lt;/code&gt; zugegriffen werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -926,7 +926,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;firstCharacterOrNull()&lt;/code&gt; so, dass sie den ersten Character des Strings zurück gibt. Sofern der String&#10;    Leer ist oder nur aus Leerzeichen besteht, gebe &lt;code&gt;null&lt;/code&gt; zurück.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;toUpperCaseIfNotNull(value: String?)&lt;/code&gt; so, dass sie den String mit Großbuchstaben zurück gibt, sofern&#10;    er nicht &lt;code&gt;null&lt;/code&gt; ist. Andernfalls gebe &lt;code&gt;null&lt;/code&gt; zurück.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1015,7 +1015,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle  ein Companion Objekt für die Klasse &lt;code&gt;Database&lt;/code&gt;, welches die Konstante &lt;code&gt;NAME_KEY&lt;/code&gt; mit dem value &lt;code&gt;&quot;MY_DB&quot;&lt;/code&gt;&#10;  bereitstellt.&#10;&lt;/p&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1087,7 +1087,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine Klasse &lt;code&gt;Smiley&lt;/code&gt;, die das Interface &lt;code&gt;Drawable&lt;/code&gt; implementiert. Die Funktion&#10;        &lt;code&gt;draw()&lt;/code&gt; sollte den&#10;        String: &lt;code&gt;&quot;:-)&quot;&lt;/code&gt; in der Konsole ausgeben.&#10;&#10;        &lt;br&gt;&#10;        Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt;&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine Klasse &lt;code&gt;HairySmiley&lt;/code&gt;, die von &lt;code&gt;Smiley&lt;/code&gt; erbt und die Ausgabe in &lt;code&gt;draw()&lt;/code&gt; durch ein &lt;code&gt;&quot;?&quot;&lt;/code&gt;&#10;        erweitert. Die Funktion &lt;code&gt;draw()&lt;/code&gt; sollte den String &lt;code&gt;&quot;?:-)&quot;&lt;/code&gt; in die Konsole schreiben.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />

@@ -27,8 +27,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933ea286-1ec3-442e-bcca-57ac10f348dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.coursecreator/Kotlin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.coursecreator/Kotlin.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coursecreator/Kotlin/course.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Classes/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Classes/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Companion Objects/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Companion Objects/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Default Parameters/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Default Parameters/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Extension Functions/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Extension Functions/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Functions/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Functions/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Hello World/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Hello World/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Interfaces/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Interfaces/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Nullability/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Nullability/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Output &amp; String-Template/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Output &amp; String-Template/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/task.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -123,51 +136,77 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="8" />
-          <entry key="html" value="13" />
-          <entry key="kt" value="133" />
+          <entry key="html" value="56" />
+          <entry key="kt" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="8" />
-          <entry key="HTML" value="13" />
-          <entry key="Kotlin" value="133" />
+          <entry key="HTML" value="56" />
+          <entry key="Kotlin" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="50" />
-          <entry key="html" value="666" />
+          <entry key="html" value="9018" />
           <entry key="kt" value="6785" />
-          <entry key="txt" value="30" />
+          <entry key="txt" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="50" />
-          <entry key="HTML" value="666" />
+          <entry key="HTML" value="9018" />
           <entry key="Kotlin" value="6785" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="PLAIN_TEXT" value="60" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/src/Task.kt">
-          <provider selected="true" editor-type-id="StudyEditor">
-            <state>
-              <EduEditorState>
-                <MainEditorState relative-caret-position="15">
-                  <caret line="1" column="6" lean-forward="true" selection-end-line="2" selection-end-column="17" />
-                </MainEditorState>
-              </EduEditorState>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/src/Task.kt">
+              <provider selected="true" editor-type-id="StudyEditor">
+                <state>
+                  <EduEditorState>
+                    <MainEditorState relative-caret-position="60">
+                      <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
+                    </MainEditorState>
+                  </EduEditorState>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/task.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/task.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -4665,7 +4704,6 @@
         <option value="$PROJECT_DIR$/Getting Started/List/test/Tests.kt" />
         <option value="$PROJECT_DIR$/Getting Started/List/src/Task.kt" />
         <option value="$PROJECT_DIR$/Getting Started/Hello World/src/Task.kt" />
-        <option value="$PROJECT_DIR$/Getting Started/Hello World/task.html" />
         <option value="$PROJECT_DIR$/Getting Started/Variables/src/Task.kt" />
         <option value="$PROJECT_DIR$/Getting Started/Variables/test/Tests.kt" />
         <option value="$PROJECT_DIR$/Getting Started/Functions/src/Task.kt" />
@@ -4693,6 +4731,19 @@
         <option value="$PROJECT_DIR$/Getting Started/Casting/src/Task.kt" />
         <option value="$PROJECT_DIR$/Getting Started/Casting &amp; When/src/Task.kt" />
         <option value="$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/test/Tests.kt" />
+        <option value="$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Hello World/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Output &amp; String-Template/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Functions/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Default Parameters/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Extension Functions/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Classes/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Nullability/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Companion Objects/task.html" />
+        <option value="$PROJECT_DIR$/Getting Started/Interfaces/task.html" />
       </list>
     </option>
   </component>
@@ -4702,7 +4753,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -4729,13 +4780,13 @@
               <item name="Kotlin" type="a264ea2a:RootNode" />
               <item name="Kotlin" type="ef639090:CCCourseNode" />
               <item name="Getting Started" type="e994c609:CCLessonNode" />
-              <item name="Variables &amp; Type-Inference" type="83e62b93:CCTaskNode" />
+              <item name="Interfaces" type="83e62b93:CCTaskNode" />
             </path>
             <path>
               <item name="Kotlin" type="a264ea2a:RootNode" />
               <item name="Kotlin" type="ef639090:CCCourseNode" />
               <item name="Getting Started" type="e994c609:CCLessonNode" />
-              <item name="Variables &amp; Type-Inference" type="83e62b93:CCTaskNode" />
+              <item name="Interfaces" type="83e62b93:CCTaskNode" />
               <item name="src" type="7e263673:CCNode" />
             </path>
           </expand>
@@ -4794,7 +4845,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554729077915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554748117121" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -4833,7 +4884,7 @@
       <updated>1554704677989</updated>
       <workItem from="1554704680341" duration="1910000" />
       <workItem from="1554711309373" duration="7433000" />
-      <workItem from="1554719034945" duration="8736000" />
+      <workItem from="1554719034945" duration="15245000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1554719892986</created>
@@ -4849,16 +4900,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554728782557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Placeholder in Variables">
+      <created>1554729101099</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554729101099</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18079000" />
+    <option name="totallyTimeSpent" value="24588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23162939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23162939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -4874,7 +4933,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2938053" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="11" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -4894,33 +4953,33 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25585938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23162939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32970297" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32970297" />
-      <window_info anchor="bottom" id="Docker" order="11" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TeamCity" order="15" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29469025" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="11" weight="0.32970297" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TeamCity" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Task" order="3" visible="true" weight="0.27148438" />
+      <window_info anchor="right" id="Task" order="3" visible="true" weight="0.21618743" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
@@ -4939,7 +4998,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added more Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more Tasks" />
+    <MESSAGE value="Added Placeholder in Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Placeholder in Variables" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Utils/src/Tests.kt" />
@@ -4972,30 +5032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Output &amp; String-Template/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Hello World/task.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Functions/task.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Getting Started/Default Parameters/test/Tests.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -5005,17 +5041,6 @@
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Default Parameters/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -5043,43 +5068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Functions/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret selection-end-line="2" selection-end-column="1" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Output &amp; String-Template/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="15">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="26" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret column="25" selection-start-column="25" selection-end-line="4" selection-end-column="1" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/task.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/test/Tests.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -5090,20 +5078,6 @@
           </EduEditorState>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret column="9" selection-start-column="9" selection-end-column="26" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Nullability/task.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar!/kotlin/text/StringsJVM.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -5119,20 +5093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/task.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Extension Functions/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret selection-end-column="85" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Getting Started/Extension Functions/test/Tests.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -5144,34 +5104,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Classes/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="54" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Getting Started/Classes/test/Tests.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
             <MainEditorState relative-caret-position="450">
               <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
             </MainEditorState>
           </EduEditorState>
         </state>
@@ -5216,17 +5154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Hello World/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState>
-              <caret selection-end-line="2" selection-end-column="1" />
-            </MainEditorState>
-          </EduEditorState>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Getting Started/Hello World/test/Tests.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
@@ -5237,9 +5164,6 @@
           </EduEditorState>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/task.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/test/Tests.kt">
       <provider selected="true" editor-type-id="StudyEditor">
@@ -5308,14 +5232,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/src/Task.kt">
+    <entry file="file://$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/src/Task.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
+            <MainEditorState>
+              <caret selection-end-line="2" selection-end-column="17" />
             </MainEditorState>
           </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Hello World/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret selection-end-line="2" selection-end-column="1" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Hello World/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Output &amp; String-Template/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="15">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="26" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Output &amp; String-Template/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" lean-forward="true" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Functions/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret selection-end-line="2" selection-end-column="1" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Functions/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Default Parameters/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret selection-end-column="120" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Default Parameters/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Arrays &amp; Lists/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret column="9" selection-start-column="9" selection-end-column="26" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Function Types &amp; Lambdas/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Extension Functions/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Extension Functions/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <caret selection-end-column="85" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Classes/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="54" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Classes/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="9" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Custom Setter &amp; Getter/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Nullability/src/Task.kt">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="30">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="41" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Nullability/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -5330,25 +5442,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Nullability/src/Task.kt">
+    <entry file="file://$PROJECT_DIR$/Getting Started/Companion Objects/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/src/Task.kt">
       <provider selected="true" editor-type-id="StudyEditor">
         <state>
           <EduEditorState>
-            <MainEditorState relative-caret-position="30">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="63" />
+            <MainEditorState relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
             </MainEditorState>
           </EduEditorState>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Getting Started/Variables &amp; Type-Inference/src/Task.kt">
-      <provider selected="true" editor-type-id="StudyEditor">
-        <state>
-          <EduEditorState>
-            <MainEditorState relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="true" selection-end-line="2" selection-end-column="17" />
-            </MainEditorState>
-          </EduEditorState>
+    <entry file="file://$PROJECT_DIR$/Getting Started/Interfaces/task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
