@@ -28,7 +28,7 @@
               "name" : "test/Tests.kt",
               "placeholders" : [ ],
               "is_visible" : false,
-              "text" : "import org.junit.After\nimport org.junit.Assert.assertEquals\nimport org.junit.Before\nimport org.junit.Test\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\n\nclass Test {\n\n    private val outStream = ByteArrayOutputStream()\n    private val originalOut = System.out\n\n    @Before\n    fun setUpStreams() {\n        System.setOut(PrintStream(outStream))\n    }\n\n    @After\n    fun restoreStreams() {\n        System.setOut(originalOut)\n    }\n\n    @Test\n    fun testSolution() {\n        main()\n        assertEquals(\"Hello World\\n\", outStream.toString())\n    }\n}"
+              "text" : "import org.junit.After\nimport org.junit.Assert.assertEquals\nimport org.junit.Before\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\nimport org.junit.Test\n\n\n\nclass Test {\n\n    private val outStream = ByteArrayOutputStream()\n    private val originalOut = System.out\n\n    @Before\n    fun setUpStreams() {\n        System.setOut(PrintStream(outStream))\n    }\n\n    @After\n    fun restoreStreams() {\n        System.setOut(originalOut)\n    }\n\n    @Test\n    fun testSolution() {\n        main()\n        assertEquals(\"Hello World\\n\", outStream.toString())\n    }\n}"
             }
           },
           "description_text" : "<html>\nSchreibe eine Funktion namens \"main\", welche \"Hello World\" in der Konsole ausgibt.\n<br>\n<br>\n<div class=\"hint\">\n  <!-- Hint here -->\n</div>\n</html>",
@@ -194,7 +194,7 @@
           "task_type" : "edu"
         },
         {
-          "name" : "Variable & Function Types",
+          "name" : "Function Types & Lambdas",
           "files" : {
             "src/Task.kt" : {
               "name" : "src/Task.kt",
@@ -202,24 +202,36 @@
                 {
                   "offset" : 9,
                   "length" : 6,
-                  "possible_answer" : "(Int, Int) -> Int = { v1, v2 ->\n    v1 + v2\n}",
+                  "possible_answer" : "(Int, Int) -> Int",
                   "placeholder_text" : "TODO()"
                 },
                 {
-                  "offset" : 34,
+                  "offset" : 18,
                   "length" : 6,
-                  "possible_answer" : "(values: List<Int>, v2: Int, operation: (Int, Int) -> Int) = values.map{ operation(it, v2) }",
+                  "possible_answer" : "{ v1, v2 ->\n    v1 + v2\n}",
                   "placeholder_text" : "TODO()"
                 },
                 {
-                  "offset" : 86,
+                  "offset" : 44,
+                  "length" : 6,
+                  "possible_answer" : "values: List<Int>, v2: Int, operation: (Int, Int) -> Int",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 54,
+                  "length" : 6,
+                  "possible_answer" : "values.map{ operation(it, v2) }",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 106,
                   "length" : 6,
                   "possible_answer" : "operateOnEach(values, v2, sum)",
                   "placeholder_text" : "TODO()"
                 }
               ],
               "is_visible" : true,
-              "text" : "val sum: TODO()\n\nfun operateOnEachTODO()\n\nfun sumOnEach(values: List<Int>, v2: Int) = TODO()"
+              "text" : "val sum: TODO() = TODO()\n\nfun operateOnEach(TODO()) = TODO()\n\nfun sumOnEach(values: List<Int>, v2: Int) = TODO()"
             },
             "test/Tests.kt" : {
               "name" : "test/Tests.kt",
@@ -234,12 +246,228 @@
             "link_type" : "STEPIK"
           },
           "task_type" : "edu"
+        },
+        {
+          "name" : "Extension Functions",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 6,
+                  "possible_answer" : "fun String.capitalize() = this.replaceFirst(this.first(), this.first().toUpperCase())",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "TODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Test\n\nclass Test {\n    @Test fun testSolution() {\n        val string = \"hello\"\n        assertEquals(string.capitalize(), \"Hello\")\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Classes",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 0,
+                  "length" : 6,
+                  "possible_answer" : "data class Address(val street: String, val houseNumber: String, val postalCode: Int, val city: String)",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 8,
+                  "length" : 6,
+                  "possible_answer" : "class AddressBook(val addresses: MutableList<Address>)",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 54,
+                  "length" : 6,
+                  "possible_answer" : "addresses.contains(address)",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "TODO()\n\nTODO() {\n    fun contains(address: Address) = TODO()\n}\n"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert.*\nimport org.junit.Test\n\nclass Test {\n    @Test fun testAddress() {\n        val street = \"ExampleStreet\"\n        val houseNumber = \"1\"\n        val postalCode = 12345\n        val city = \"ExampleCity\"\n\n        val address = Address(street, houseNumber, postalCode, city)\n        assertEquals(address.street, street)\n        assertEquals(address.houseNumber, houseNumber)\n        assertEquals(address.postalCode, postalCode)\n        assertEquals(address.city, city)\n\n        assertEquals(address.toString(), \"Address(street=$street, houseNumber=$houseNumber, postalCode=$postalCode, city=$city)\")\n    }\n\n    @Test fun testAddressBook() {\n        val street = \"ExampleStreet\"\n        val houseNumber = \"1\"\n        val postalCode = 12345\n        val city = \"ExampleCity\"\n\n        val address = Address(street, houseNumber, postalCode, city)\n        val address2 = Address(street, houseNumber, postalCode, city)\n        val address3 = Address(street.toUpperCase(), houseNumber, postalCode, city)\n        val addressBook = AddressBook(mutableListOf(address))\n\n        assertTrue(addressBook.contains(address2))\n        assertFalse(addressBook.contains(address3))\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Custom Setter & Getter",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 136,
+                  "length" : 6,
+                  "possible_answer" : "set(value) {\n            field = if(value != 0) value else throw IllegalArgumentException()\n        }",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 167,
+                  "length" : 6,
+                  "possible_answer" : "\n        get() = numerator.toDouble()/denominator",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "import java.lang.IllegalArgumentException\n\nclass Fraction(val numerator: Int, denominator: Int) {\n\n    var denominator: Int = 1\n        TODO()\n\n    val decimal: DoubleTODO()\n\n    init {\n        this.denominator = denominator\n    }\n\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import com.sun.deploy.security.ruleset.ExceptionRule\nimport org.junit.Assert\nimport org.junit.Rule\nimport org.junit.Test\nimport org.junit.rules.ExpectedException\nimport java.lang.IllegalArgumentException\n\n\nclass Test {\n\n    @Rule\n    @JvmField\n    var exceptionRule = ExpectedException.none()\n\n\n    @Test\n    fun testSolutionValid() {\n        val frac = Fraction(2, 1)\n    }\n\n\n    @Test\n    fun testSolutionInvalidConstructor() {\n        exceptionRule.expect(IllegalArgumentException::class.java)\n        val fracInvalid = Fraction(2, 0)\n    }\n\n\n    @Test\n    fun testSolutionInvalidSet() {\n        val frac = Fraction(2, 1)\n        exceptionRule.expect(IllegalArgumentException::class.java)\n        frac.denominator = 0\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Nullability",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 35,
+                  "length" : 6,
+                  "possible_answer" : "Char? = if (this.isBlank()) null else this[0]",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 86,
+                  "length" : 6,
+                  "possible_answer" : "value?.toUpperCase()",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "fun String.firstCharacterOrNull(): TODO()\n\nfun toUpperCaseIfNotNull(value: String?) = TODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Assert.assertNull\nimport org.junit.Test\n\nclass Test {\n    @Test fun testFirstOrNull() {\n        assertNull(\"\".firstCharacterOrNull())\n        assertNull(\" \".firstCharacterOrNull())\n        assertEquals(\"Hallo\".firstCharacterOrNull(), 'H')\n        assertEquals(\"hallo\".firstCharacterOrNull(), 'h')\n    }\n\n    @Test fun testToUpperCase() {\n        assertNull(toUpperCaseIfNotNull(null))\n        assertEquals(toUpperCaseIfNotNull(\"hello\"), \"HELLO\")\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Companion Objects",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 21,
+                  "length" : 6,
+                  "possible_answer" : "companion object {\n        const val NAME_KEY = \"MY_DB\"\n    }",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "class Database {\n    TODO()\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert.assertEquals\nimport org.junit.Test\n\nclass Test {\n    @Test fun testSolution() {\n        assertEquals(Database.NAME_KEY, \"MY_DB\")\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        },
+        {
+          "name" : "Interfaces",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [
+                {
+                  "offset" : 39,
+                  "length" : 6,
+                  "possible_answer" : "open class Smiley: Drawable {\n    override fun draw() {\n        println(\":-)\")\n    }\n}",
+                  "placeholder_text" : "TODO()"
+                },
+                {
+                  "offset" : 47,
+                  "length" : 6,
+                  "possible_answer" : "class HairySmiley: Smiley() {\n    override fun draw() {\n        print(\"?\")\n        super.draw()\n    }\n}",
+                  "placeholder_text" : "TODO()"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "interface Drawable {\n    fun draw()\n}\n\nTODO()\n\nTODO()"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.After\nimport org.junit.Assert\nimport org.junit.Assert.assertEquals\nimport org.junit.Assert.assertTrue\nimport org.junit.Before\nimport org.junit.Test\nimport java.io.ByteArrayOutputStream\nimport java.io.PrintStream\n\nclass Test {\n\n    private val outStream = ByteArrayOutputStream()\n    private val originalOut = System.out\n\n    @Before\n    fun setUpStreams() {\n        System.setOut(PrintStream(outStream))\n    }\n\n    @After\n    fun restoreStreams() {\n        System.setOut(originalOut)\n    }\n\n    @Test fun testSmiley() {\n        val smiley = Smiley()\n        assertTrue(smiley is Drawable)\n        smiley.draw()\n        assertEquals(outStream.toString(), \":-)\\n\")\n    }\n\n    @Test fun testHairySmiley() {\n        val smiley = HairySmiley()\n        assertTrue(smiley is Drawable)\n        assertTrue(smiley is Smiley)\n        smiley.draw()\n        assertEquals(outStream.toString(), \"?:-)\\n\")\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\nWrite your task text here.\n<br>\n<br>\n<div class=\"hint\">\n  You can add hints anywhere in task text. Copy all hint div block and change its content.\n</div>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
         }
       ],
       "type" : "lesson"
     }
   ],
   "additional_files" : [
+    {
+      "name" : "README.md",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "# Kotlin-Course\nSimple Getting Startet for Kotlin\n"
+    },
     {
       "name" : "build.gradle",
       "placeholders" : [ ],

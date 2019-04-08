@@ -144,7 +144,25 @@
                             <value>
                               <TaskFile>
                                 <option name="answerPlaceholders">
-                                  <list />
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="var age = 18&#10;var size = 182.5&#10;val name = &quot;Hans&quot;" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                  </list>
                                 </option>
                                 <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
@@ -1142,60 +1160,6 @@
                                   <list />
                                 </option>
                                 <option name="highlightErrors" value="true" />
-                                <option name="name" value="test/Tests.kt" />
-                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
-                                <option name="trackChanges" value="true" />
-                                <option name="trackLengths" value="true" />
-                                <option name="userCreated" value="false" />
-                                <option name="visible" value="false" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="updateDate" value="0" />
-                    </EduTask>
-                    <EduTask>
-                      <option name="customPresentableName" />
-                      <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
-                      <option name="feedbackLink">
-                        <FeedbackLink>
-                          <option name="link" />
-                          <option name="type" value="STEPIK" />
-                        </FeedbackLink>
-                      </option>
-                      <option name="index" value="14" />
-                      <option name="name" value="Casting &amp; When" />
-                      <option name="record" value="-1" />
-                      <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
-                      <option name="files">
-                        <map>
-                          <entry key="src/Task.kt">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="true" />
-                                <option name="name" value="src/Task.kt" />
-                                <option name="text" value="// type your solution here" />
-                                <option name="trackChanges" value="true" />
-                                <option name="trackLengths" value="true" />
-                                <option name="userCreated" value="false" />
-                                <option name="visible" value="true" />
-                              </TaskFile>
-                            </value>
-                          </entry>
-                          <entry key="test/Tests.kt">
-                            <value>
-                              <TaskFile>
-                                <option name="answerPlaceholders">
-                                  <list />
-                                </option>
-                                <option name="highlightErrors" value="false" />
                                 <option name="name" value="test/Tests.kt" />
                                 <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
