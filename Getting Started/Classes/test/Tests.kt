@@ -9,12 +9,12 @@ class Test {
         val city = "ExampleCity"
 
         val address = Address(street, houseNumber, postalCode, city)
-        assertEquals(address.street, street)
-        assertEquals(address.houseNumber, houseNumber)
-        assertEquals(address.postalCode, postalCode)
-        assertEquals(address.city, city)
+        assertEquals(street, address.street)
+        assertEquals(houseNumber, address.houseNumber)
+        assertEquals(postalCode, address.postalCode)
+        assertEquals(city, address.city)
 
-        assertEquals(address.toString(), "Address(street=$street, houseNumber=$houseNumber, postalCode=$postalCode, city=$city)")
+        assertEquals("Address(street=$street, houseNumber=$houseNumber, postalCode=$postalCode, city=$city)", address.toString())
     }
 
     @Test fun testAddressBook() {

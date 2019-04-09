@@ -3,10 +3,10 @@ import org.junit.Test
 
 class Test {
     @Test fun testList() {
-        assertEquals(createStringList(), listOf("A", "B", "C"))
+        assertEquals(listOf("A", "B", "C"), createStringList())
     }
 
     @Test fun testArray() {
-        assertEquals(createStringArray(), arrayOf("A", "B", "C"))
+        assertArrayEquals(arrayOf("A", "B", "C"), createStringArray())
     }
 }

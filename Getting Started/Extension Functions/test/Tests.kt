@@ -5,6 +5,6 @@ import org.junit.Test
 class Test {
     @Test fun testSolution() {
         val string = "hello"
-        assertEquals(string.capitalize(), "Hello")
+        assertEquals("Hello", string.capitalize())
     }
 }

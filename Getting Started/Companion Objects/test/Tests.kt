@@ -3,6 +3,6 @@ import org.junit.Test
 
 class Test {
     @Test fun testSolution() {
-        assertEquals(Database.NAME_KEY, "MY_DB")
+        assertEquals("MY_DB", Database.NAME_KEY)
     }
 }

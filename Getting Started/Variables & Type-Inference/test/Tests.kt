@@ -9,8 +9,8 @@ class Test {
         assertTrue(size is Double)
         assertTrue(name is String)
 
-        assertEquals(age, 18)
-        assertTrue(size.equals(182.5))
-        assertEquals(name, "Hans")
+        assertEquals(18, age)
+        assertEquals(182.5, size, 0.01)
+        assertEquals("Hans", name)
     }
 }

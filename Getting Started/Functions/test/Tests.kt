@@ -1,6 +1,7 @@
 import org.junit.After
 import org.junit.Assert
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import java.io.ByteArrayOutputStream
@@ -26,12 +27,12 @@ class Test {
         val v1 = 1
         val v2 = 5
         printSum(v1, v2)
-        assertEquals("${v1 + v2}", outStream.toString())
+        assertTrue(outStream.toString().contains("${v1 + v2}"))
     }
 
     @Test fun testSum() {
         val v1 = 1
         val v2 = 5
-        assertEquals(sum(v1, v2), v1 + v2)
+        assertEquals(v1 + v2, sum(v1, v2))
     }
 }

@@ -42,7 +42,7 @@
           </option>
           <option name="stepikChangeStatus" value="Up to date" />
           <option name="type" value="pycharm10 kotlin 1.2" />
-          <option name="updateDate" value="1554793932000" />
+          <option name="updateDate" value="1554794964000" />
           <option name="items">
             <list>
               <Lesson>
@@ -51,7 +51,7 @@
                 <option name="index" value="1" />
                 <option name="name" value="Getting Started" />
                 <option name="stepikChangeStatus" value="Up to date" />
-                <option name="updateDate" value="1554793932000" />
+                <option name="updateDate" value="1554794964000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -69,7 +69,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675884" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -124,12 +124,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554794962000" />
+                      <option name="updateDate" value="1554811496000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;age&lt;/code&gt; vom Typ &lt;code&gt;Int&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;18&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;size&lt;/code&gt; vom Typ &lt;code&gt;Double&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;182.5&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle ein finales &lt;b&gt;Value&lt;/b&gt; namens &lt;code&gt;name&lt;/code&gt; vom Typ &lt;code&gt;String&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;&quot;Hans&quot;&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    In Kotlin wird die Unterscheidung zwischen finalen und nicht finalen Variablen mit Hilfe der Schlüsselwörter &lt;code&gt;val&lt;/code&gt; und &lt;code&gt;var&lt;/code&gt; gemacht.&#10;    &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine veränderliche &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;age&lt;/code&gt; vom Typ &lt;code&gt;Int&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;18&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine veränderliche &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;size&lt;/code&gt; vom Typ &lt;code&gt;Double&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;182.5&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle ein unveränderliche &lt;b&gt;Value&lt;/b&gt; namens &lt;code&gt;name&lt;/code&gt; vom Typ &lt;code&gt;String&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;&quot;Hans&quot;&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    In Kotlin wird die Unterscheidung zwischen finalen und nicht finalen Variablen mit Hilfe der Schlüsselwörter &lt;code&gt;val&lt;/code&gt; und &lt;code&gt;var&lt;/code&gt; gemacht.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -196,7 +196,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793929000" />
+                      <option name="updateDate" value="1554811497000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -268,7 +268,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554794962000" />
+                      <option name="updateDate" value="1554811497000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -357,7 +357,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554794963000" />
+                      <option name="updateDate" value="1554811499000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -429,7 +429,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793618000" />
+                      <option name="updateDate" value="1554811500000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -518,7 +518,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793619000" />
+                      <option name="updateDate" value="1554811500000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -658,7 +658,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793930000" />
+                      <option name="updateDate" value="1554811501000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -730,7 +730,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793621000" />
+                      <option name="updateDate" value="1554811502000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -836,7 +836,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793931000" />
+                      <option name="updateDate" value="1554811502000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -925,7 +925,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793623000" />
+                      <option name="updateDate" value="1554811503000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1014,7 +1014,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793625000" />
+                      <option name="updateDate" value="1554811504000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1086,7 +1086,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793932000" />
+                      <option name="updateDate" value="1554811504000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1175,7 +1175,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554794964000" />
+                      <option name="updateDate" value="1554811505000" />
                     </EduTask>
                   </list>
                 </option>

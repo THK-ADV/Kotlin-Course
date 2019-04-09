@@ -1,5 +1,6 @@
 import org.junit.After
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
@@ -25,6 +26,6 @@ class Test {
     @Test
     fun testSolution() {
         main()
-        assertEquals("Hello World", outStream.toString())
+        assertTrue(outStream.toString().contains("Hello World"))
     }
 }

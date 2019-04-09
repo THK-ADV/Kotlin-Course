@@ -1,5 +1,3 @@
-import com.sun.deploy.security.ruleset.ExceptionRule
-import org.junit.Assert
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.ExpectedException

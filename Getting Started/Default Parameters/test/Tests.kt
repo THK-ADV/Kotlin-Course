@@ -7,12 +7,12 @@ class Test {
         val firstName = "Peter"
         val lastName = "Petersen"
         val birthName = "Lustig"
-        assertEquals(getFullName(firstName, lastName, birthName), "$firstName $lastName ($birthName)")
+        assertEquals("$firstName $lastName ($birthName)", getFullName(firstName, lastName, birthName))
     }
 
     @Test fun testDefault() {
         val firstName = "Peter"
         val lastName = "Petersen"
-        assertEquals(getFullName(firstName, lastName), "$firstName $lastName ($lastName)")
+        assertEquals("$firstName $lastName ($lastName)", getFullName(firstName, lastName))
     }
 }

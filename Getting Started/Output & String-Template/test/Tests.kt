@@ -1,6 +1,7 @@
 import org.junit.After
 import org.junit.Assert
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 import java.io.ByteArrayOutputStream
@@ -26,6 +27,6 @@ class Test {
     fun testSolution() {
         val name = "Paul"
         printName(name)
-        Assert.assertEquals("Name: $name", outStream.toString())
+        assertTrue(outStream.toString().contains("Name: $name"))
     }
 }
