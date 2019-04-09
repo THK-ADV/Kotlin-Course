@@ -26,7 +26,7 @@ class Test {
         val v1 = 1
         val v2 = 5
         printSum(v1, v2)
-        assertEquals("${v1 + v2}\n", outStream.toString())
+        assertEquals("${v1 + v2}", outStream.toString())
     }
 
     @Test fun testSum() {

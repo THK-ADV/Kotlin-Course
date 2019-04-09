@@ -25,6 +25,6 @@ class Test {
     @Test
     fun testSolution() {
         main()
-        assertEquals("Hello World\n", outStream.toString())
+        assertEquals("Hello World", outStream.toString())
     }
 }

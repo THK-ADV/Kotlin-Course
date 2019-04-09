@@ -4,7 +4,7 @@ interface Drawable {
 
 open class Smiley: Drawable {
     override fun draw() {
-        println(":-)")
+        print(":-)")
     }
 }
 

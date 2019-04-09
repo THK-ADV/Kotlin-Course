@@ -26,6 +26,6 @@ class Test {
     fun testSolution() {
         val name = "Paul"
         printName(name)
-        Assert.assertEquals("Name: $name\n", outStream.toString())
+        Assert.assertEquals("Name: $name", outStream.toString())
     }
 }

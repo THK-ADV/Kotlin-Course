@@ -26,7 +26,7 @@ class Test {
         val smiley = Smiley()
         assertTrue(smiley is Drawable)
         smiley.draw()
-        assertEquals(outStream.toString(), ":-)\n")
+        assertEquals(outStream.toString(), ":-)")
     }
 
     @Test fun testHairySmiley() {
@@ -34,6 +34,6 @@ class Test {
         assertTrue(smiley is Drawable)
         assertTrue(smiley is Smiley)
         smiley.draw()
-        assertEquals(outStream.toString(), "?:-)\n")
+        assertEquals(outStream.toString(), "?:-)")
     }
 }

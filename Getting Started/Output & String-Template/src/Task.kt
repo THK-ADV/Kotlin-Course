@@ -1,3 +1,3 @@
 fun printName(name: String) {
-    println("Name: $name")
+    print("Name: $name")
 }

@@ -42,7 +42,7 @@
           </option>
           <option name="stepikChangeStatus" value="Up to date" />
           <option name="type" value="pycharm10 kotlin 1.2" />
-          <option name="updateDate" value="1554793608000" />
+          <option name="updateDate" value="1554793627000" />
           <option name="items">
             <list>
               <Lesson>
@@ -50,8 +50,8 @@
                 <option name="id" value="221020" />
                 <option name="index" value="1" />
                 <option name="name" value="Getting Started" />
-                <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="1554793613000" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1554793674000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -141,7 +141,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675885" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -196,7 +196,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793615000" />
+                      <option name="updateDate" value="1554793929000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -213,7 +213,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675886" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -268,7 +268,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793616000" />
+                      <option name="updateDate" value="1554793929000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -535,7 +535,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675890" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -658,7 +658,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793620000" />
+                      <option name="updateDate" value="1554793930000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -747,7 +747,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675892" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -836,7 +836,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793622000" />
+                      <option name="updateDate" value="1554793931000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1031,7 +1031,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675895" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -1086,7 +1086,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793626000" />
+                      <option name="updateDate" value="1554793932000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
