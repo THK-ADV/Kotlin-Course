@@ -42,7 +42,7 @@
           </option>
           <option name="stepikChangeStatus" value="Up to date" />
           <option name="type" value="pycharm10 kotlin 1.2" />
-          <option name="updateDate" value="1554794964000" />
+          <option name="updateDate" value="1554811505000" />
           <option name="items">
             <list>
               <Lesson>
@@ -57,7 +57,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;main()&lt;/code&gt;,&#10;  welche in der Konsole den String &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Die Funktion &lt;code&gt;print()&lt;/code&gt; ist ein wrapper um die aus Java bekannte Funktion&#10;  &lt;code&gt;System.out.print()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;main()&lt;/code&gt;, ohne Parameter,&#10;  welche in der Konsole den String &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Die Funktion &lt;code&gt;print()&lt;/code&gt; ist ein wrapper um die aus Java bekannte Funktion&#10;  &lt;code&gt;System.out.print()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -124,7 +124,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554811496000" />
+                      <option name="updateDate" value="1554812572000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -201,7 +201,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;printName(...)&lt;/code&gt;,&#10;  welche einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Vervollständige die &lt;b&gt;Funktion&lt;/b&gt; &lt;code&gt;printName(...)&lt;/code&gt; so,&#10;  dass sie einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -268,7 +268,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554811497000" />
+                      <option name="updateDate" value="1554812573000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -523,7 +523,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine finale Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hällt, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion, welche aus zwei Integern ein Integer macht&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine durch die operation manipulierte Liste zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum Funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine finale Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hält, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion, welche aus zwei Integern ein Integer macht&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine durch die operation manipulierte Liste zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum Funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -658,7 +658,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554811501000" />
+                      <option name="updateDate" value="1554812573000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -735,7 +735,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die finalen Parameter:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine Klasse &lt;code&gt;AddressBook&lt;/code&gt;, welche eine finale veränderliche Liste von Adressen im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;fun contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die finalen Parameter:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine &lt;b&gt;Klasse&lt;/b&gt; &lt;code&gt;AddressBook&lt;/code&gt;, welche eine veränderliche Liste von Adressen in einer unveränderlichen Variable im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;    Überlege ob AddressBook ein Kandidat für eine Data Class ist.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;fun contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -783,7 +783,7 @@
                                       <option name="offset" value="104" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="class AddressBook(val addresses: MutableList&lt;Address&gt;)" />
+                                      <option name="possibleAnswer" value="data class AddressBook(val addresses: MutableList&lt;Address&gt;)" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -797,7 +797,7 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="198" />
+                                      <option name="offset" value="203" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="addresses.contains(address)" />
@@ -836,7 +836,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554811502000" />
+                      <option name="updateDate" value="1554812574000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />

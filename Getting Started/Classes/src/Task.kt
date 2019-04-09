@@ -1,5 +1,5 @@
 data class Address(val street: String, val houseNumber: String, val postalCode: Int, val city: String)
 
-class AddressBook(val addresses: MutableList<Address>) {
+data class AddressBook(val addresses: MutableList<Address>) {
     fun contains(address: Address) = addresses.contains(address)
 }
