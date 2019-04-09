@@ -523,7 +523,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine finale Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hält, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion, welche aus zwei Integern ein Integer macht&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine durch die operation manipulierte Liste zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum Funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine unveränderliche Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hält, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion namens &lt;code&gt;operation&lt;/code&gt;, welche zwei Integer entgegen nimmt und ein Integer zurück gibt&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine Liste mit den durch die operation manipulierten Elementen zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum Funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -535,7 +535,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675890" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -735,7 +735,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die finalen Parameter:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine &lt;b&gt;Klasse&lt;/b&gt; &lt;code&gt;AddressBook&lt;/code&gt;, welche eine veränderliche Liste von Adressen in einer unveränderlichen Variable im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;    Überlege ob AddressBook ein Kandidat für eine Data Class ist.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;fun contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die Parameter als unveränderliche Variablen:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine &lt;b&gt;Klasse&lt;/b&gt; &lt;code&gt;AddressBook&lt;/code&gt;, welche eine veränderliche Liste von Adressen in einer unveränderlichen Variable im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;    Überlege ob AddressBook ein Kandidat für eine Data Class ist.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -747,7 +747,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675892" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -841,7 +841,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine &lt;b&gt;Custom Setter&lt;/b&gt; für die Variable &lt;code&gt;denominator&lt;/code&gt;, die sicherstellt, dass nur Werte&#10;        gesetzt werden, die != 0 sind.&#10;        Andernfalls soll eine &lt;code&gt;IllegalArgumentException()&lt;/code&gt; geschmissen werden.&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine &lt;b&gt;Custom Getter&lt;/b&gt; für das Attribut &lt;code&gt;decimal&lt;/code&gt;, welche den Bruch als Dezimalzahl zurück gibt.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Auf das Baking-Field einer Variable kann über das Keyword &lt;code&gt;field&lt;/code&gt; zugegriffen werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine &lt;b&gt;Custom Setter&lt;/b&gt; für die Variable &lt;code&gt;denominator&lt;/code&gt;, die sicherstellt, dass nur Werte&#10;        gesetzt werden, die != 0 sind.&#10;        Andernfalls soll eine &lt;code&gt;IllegalArgumentException()&lt;/code&gt; geworfen werden.&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine &lt;b&gt;Custom Getter&lt;/b&gt; für das Attribut &lt;code&gt;decimal&lt;/code&gt;, welche den Bruch als Dezimalzahl zurück gibt.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Auf das Baking-Field einer Variable kann über das Keyword &lt;code&gt;field&lt;/code&gt; zugegriffen werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -853,7 +853,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675893" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
