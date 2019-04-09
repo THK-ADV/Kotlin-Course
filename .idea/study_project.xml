@@ -42,7 +42,7 @@
           </option>
           <option name="stepikChangeStatus" value="Up to date" />
           <option name="type" value="pycharm10 kotlin 1.2" />
-          <option name="updateDate" value="1554793627000" />
+          <option name="updateDate" value="1554793932000" />
           <option name="items">
             <list>
               <Lesson>
@@ -51,13 +51,13 @@
                 <option name="index" value="1" />
                 <option name="name" value="Getting Started" />
                 <option name="stepikChangeStatus" value="Up to date" />
-                <option name="updateDate" value="1554793674000" />
+                <option name="updateDate" value="1554793932000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;main()&lt;/code&gt;,&#10;  welche in der Konsole den String &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Die Funktion &lt;code&gt;println()&lt;/code&gt; ist ein wrapper um die aus Java bekannte Funktion&#10;  &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;main()&lt;/code&gt;,&#10;  welche in der Konsole den String &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Hello World&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Die Funktion &lt;code&gt;print()&lt;/code&gt; ist ein wrapper um die aus Java bekannte Funktion&#10;  &lt;code&gt;System.out.print()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -69,7 +69,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675884" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -88,7 +88,7 @@
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="fun main() {&#10;    println(&quot;Hello World&quot;)&#10;}" />
+                                      <option name="possibleAnswer" value="fun main(){&#10;    print(&quot;Hello World&quot;)&#10;}" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -124,7 +124,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793614000" />
+                      <option name="updateDate" value="1554794962000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -201,7 +201,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;printName(...)&lt;/code&gt;,&#10;  welche einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;printName(...)&lt;/code&gt;,&#10;  welche einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -232,7 +232,7 @@
                                       <option name="offset" value="34" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="println(&quot;Name: $name&quot;)" />
+                                      <option name="possibleAnswer" value="print(&quot;Name: $name&quot;)" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -268,12 +268,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793929000" />
+                      <option name="updateDate" value="1554794962000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine Funktion namens &lt;code&gt;printSum(...)&lt;/code&gt;, welche zwei Integer entgegen nimmt und die Summe dieser in der Konsole ausgibt.&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine Funktion namens &lt;code&gt;sum(..)&lt;/code&gt;, welche zwei Integer entgegen nimmt und die Summe dieser zurück liefert.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;&#10;    Verwende für die Ausgabe die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;    &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;    &lt;br&gt;&#10;    &lt;code&gt;&quot;&amp;#60;Summe der Integer&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Funktionen die folgenden Aufbau haben:&#10;    &lt;br&gt;&#10;    &lt;code&gt;&#10;        fun a(): &amp;#60;T&amp;#62; {&#10;        return ...&#10;        }&#10;    &lt;/code&gt;&#10;    &lt;br&gt;&#10;    können in Kotlin abgekürzt werden durch:&#10;    &lt;br&gt;&#10;    &lt;code&gt;&#10;        fun a(): &amp;#60;T&amp;#62; = ...&#10;    &lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine Funktion namens &lt;code&gt;printSum(...)&lt;/code&gt;, welche zwei Integer entgegen nimmt und die Summe dieser in der Konsole ausgibt.&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine Funktion namens &lt;code&gt;sum(..)&lt;/code&gt;, welche zwei Integer entgegen nimmt und die Summe dieser zurück liefert.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;p&gt;&#10;    Verwende für die Ausgabe die Funktion &lt;code&gt;print()&lt;/code&gt; aus der Kotlin Bibliothek.&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;    &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;    &lt;br&gt;&#10;    &lt;code&gt;&quot;&amp;#60;Summe der Integer&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    Funktionen die folgenden Aufbau haben:&#10;    &lt;br&gt;&#10;    &lt;code&gt;&#10;        fun a(): &amp;#60;T&amp;#62; {&#10;        return ...&#10;        }&#10;    &lt;/code&gt;&#10;    &lt;br&gt;&#10;    können in Kotlin abgekürzt werden durch:&#10;    &lt;br&gt;&#10;    &lt;code&gt;&#10;        fun a(): &amp;#60;T&amp;#62; = ...&#10;    &lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -304,7 +304,7 @@
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="fun printSum(v1: Int, v2: Int) {&#10;    println(v1 + v2)&#10;}" />
+                                      <option name="possibleAnswer" value="fun printSum(v1: Int, v2: Int) {&#10;    print(v1 + v2)&#10;}" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -318,7 +318,7 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="57" />
+                                      <option name="offset" value="55" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="fun sum(v1: Int, v2: Int) = v1 + v2" />
@@ -357,7 +357,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793617000" />
+                      <option name="updateDate" value="1554794963000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1091,7 +1091,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine Klasse &lt;code&gt;Smiley&lt;/code&gt;, die das Interface &lt;code&gt;Drawable&lt;/code&gt; implementiert. Die Funktion&#10;        &lt;code&gt;draw()&lt;/code&gt; sollte den&#10;        String: &lt;code&gt;&quot;:-)&quot;&lt;/code&gt; in der Konsole ausgeben.&#10;&#10;        &lt;br&gt;&#10;        Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt;&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine Klasse &lt;code&gt;HairySmiley&lt;/code&gt;, die von &lt;code&gt;Smiley&lt;/code&gt; erbt und die Ausgabe in &lt;code&gt;draw()&lt;/code&gt; durch ein &lt;code&gt;&quot;?&quot;&lt;/code&gt;&#10;        erweitert. Die Funktion &lt;code&gt;draw()&lt;/code&gt; sollte den String &lt;code&gt;&quot;?:-)&quot;&lt;/code&gt; in die Konsole schreiben.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine Klasse &lt;code&gt;Smiley&lt;/code&gt;, die das Interface &lt;code&gt;Drawable&lt;/code&gt; implementiert. Die Funktion&#10;        &lt;code&gt;draw()&lt;/code&gt; sollte den&#10;        String: &lt;code&gt;&quot;:-)&quot;&lt;/code&gt; in der Konsole ausgeben.&#10;&#10;        &lt;br&gt;&#10;        Verwende dazu die Funktion &lt;code&gt;print()&lt;/code&gt;&#10;    &lt;/li&gt;&#10;    &lt;li&gt;&#10;        Erstelle eine Klasse &lt;code&gt;HairySmiley&lt;/code&gt;, die von &lt;code&gt;Smiley&lt;/code&gt; erbt und die Ausgabe in &lt;code&gt;draw()&lt;/code&gt; durch ein &lt;code&gt;&quot;?&quot;&lt;/code&gt;&#10;        erweitert. Die Funktion &lt;code&gt;draw()&lt;/code&gt; sollte den String &lt;code&gt;&quot;?:-)&quot;&lt;/code&gt; in die Konsole schreiben.&#10;    &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1122,7 +1122,7 @@
                                       <option name="offset" value="39" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="open class Smiley: Drawable {&#10;    override fun draw() {&#10;        println(&quot;:-)&quot;)&#10;    }&#10;}" />
+                                      <option name="possibleAnswer" value="open class Smiley: Drawable {&#10;    override fun draw() {&#10;        print(&quot;:-)&quot;)&#10;    }&#10;}" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -1136,7 +1136,7 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="127" />
+                                      <option name="offset" value="125" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="class HairySmiley: Smiley() {&#10;    override fun draw() {&#10;        print(&quot;?&quot;)&#10;        super.draw()&#10;    }&#10;}" />
@@ -1175,7 +1175,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554793627000" />
+                      <option name="updateDate" value="1554794964000" />
                     </EduTask>
                   </list>
                 </option>
