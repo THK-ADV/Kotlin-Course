@@ -12,8 +12,8 @@
             <list>
               <StepikUserInfo>
                 <option name="firstName" value="Florian" />
-                <option name="id" value="-1" />
-                <option name="lastName" value="Herborn" />
+                <option name="id" value="90732511" />
+                <option name="lastName" value="Herborn (CoLab, CIDE TH Koeln)" />
               </StepikUserInfo>
             </list>
           </option>
@@ -21,33 +21,37 @@
           <option name="courseMode" value="Course Creator" />
           <option name="courseType" value="PyCharm" />
           <option name="customPresentableName" />
-          <option name="description" value="A Kotlin course for beginners" />
+          <option name="description" value="A Kotlin course for beginners. Simple Tasks to start coding Kotlin." />
           <option name="fromZip" value="false" />
-          <option name="id" value="0" />
+          <option name="id" value="53539" />
           <option name="index" value="-1" />
           <option name="instructors">
-            <list />
+            <list>
+              <option value="90732511" />
+            </list>
           </option>
-          <option name="language" value="kotlin" />
+          <option name="language" value="kotlin 1.2" />
           <option name="languageCode" value="en" />
           <option name="loadSolutions" value="true" />
-          <option name="name" value="Kotlin" />
+          <option name="name" value="Kotlin Getting Started" />
           <option name="public" value="false" />
           <option name="sectionIds">
-            <list />
+            <list>
+              <option value="82650" />
+            </list>
           </option>
           <option name="stepikChangeStatus" value="Up to date" />
-          <option name="type" value="pycharm10 kotlin" />
-          <option name="updateDate" value="0" />
+          <option name="type" value="pycharm10 kotlin 1.2" />
+          <option name="updateDate" value="1554793608000" />
           <option name="items">
             <list>
               <Lesson>
                 <option name="customPresentableName" />
-                <option name="id" value="0" />
+                <option name="id" value="221020" />
                 <option name="index" value="1" />
                 <option name="name" value="Getting Started" />
                 <option name="stepikChangeStatus" value="Content changed" />
-                <option name="updateDate" value="0" />
+                <option name="updateDate" value="1554793613000" />
                 <option name="taskList">
                   <list>
                     <EduTask>
@@ -64,7 +68,7 @@
                       <option name="name" value="Hello World" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675884" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -120,12 +124,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793614000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;age&lt;/code&gt; vom Typ &lt;code&gt;Int&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;18&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;size&lt;/code&gt; vom Typ &lt;code&gt;Double&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;182.5&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle ein finales &lt;b&gt;Value&lt;/b&gt; namens &lt;code&gt;name&lt;/code&gt; vom Typ &lt;code&gt;String&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;&quot;Hans&quot;&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    In Kotlin wird die Unterscheidung zwischen eines finalen und eines nicht finalen Variable mit Hilfe der Schlüsselwörter &lt;code&gt;val&lt;/code&gt; und &lt;code&gt;var&lt;/code&gt; gemacht.&#10;    &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;age&lt;/code&gt; vom Typ &lt;code&gt;Int&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;18&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle eine &lt;b&gt;Variable&lt;/b&gt; namens &lt;code&gt;size&lt;/code&gt; vom Typ &lt;code&gt;Double&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;182.5&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;Erstelle ein finales &lt;b&gt;Value&lt;/b&gt; namens &lt;code&gt;name&lt;/code&gt; vom Typ &lt;code&gt;String&lt;/code&gt; und initialisiere sie mit dem Wert &lt;code&gt;&quot;Hans&quot;&lt;/code&gt;&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;    In Kotlin wird die Unterscheidung zwischen finalen und nicht finalen Variablen mit Hilfe der Schlüsselwörter &lt;code&gt;val&lt;/code&gt; und &lt;code&gt;var&lt;/code&gt; gemacht.&#10;    &lt;code&gt;System.out.println()&lt;/code&gt;&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -136,8 +140,8 @@
                       <option name="name" value="Variables &amp; Type-Inference" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepId" value="675885" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -192,12 +196,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793615000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;printName(...)&lt;/code&gt;,&#10;  welche einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt; ausgibt.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Funktion&lt;/b&gt; namens &lt;code&gt;printName(...)&lt;/code&gt;,&#10;  welche einen Namen vom Typ &lt;code&gt;String&lt;/code&gt; entgegen nimmt und diesen in der Konsole in folgendem Format ausgibt:&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;  Verwende dazu die Funktion &lt;code&gt;println()&lt;/code&gt; aus der Kotlin Bibliothek und ein String Template&#10;&lt;/p&gt;&#10;&#10;&lt;p&gt;&#10;  &lt;strong&gt;Erwartete Ausgabe (Konsole):&lt;/strong&gt;&#10;  &lt;br&gt;&#10;  &lt;code&gt;&quot;Name: &amp;#60;name&amp;#62;&quot;&lt;/code&gt;&#10;&lt;/p&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Mit Hilfe eines &lt;code&gt;$&lt;/code&gt; können Werte direkt in einen String eingefügt werden.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -208,8 +212,8 @@
                       <option name="name" value="Output &amp; String-Template" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepId" value="675886" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -264,7 +268,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793616000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -280,7 +284,7 @@
                       <option name="name" value="Functions" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675887" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -353,7 +357,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793617000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -369,7 +373,7 @@
                       <option name="name" value="Default Parameters" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675888" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -425,7 +429,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793618000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -441,7 +445,7 @@
                       <option name="name" value="Arrays &amp; Lists" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675889" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -514,12 +518,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793619000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine finale Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hällt, die zwei Initeger entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion, welche aus zwei Integern ein Integer macht&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine finale Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hällt, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion, welche aus zwei Integern ein Integer macht&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine durch die operation manipulierte Liste zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum Funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -530,8 +534,8 @@
                       <option name="name" value="Function Types &amp; Lambdas" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepId" value="675890" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -564,6 +568,23 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
+                                      <option name="offset" value="29" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="{ v1, v2 -&gt;&#10;    v1 + v2&#10;}" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
                                       <option name="offset" value="74" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
@@ -577,7 +598,7 @@
                                       <option name="hints">
                                         <list />
                                       </option>
-                                      <option name="index" value="2" />
+                                      <option name="index" value="3" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
@@ -594,7 +615,7 @@
                                       <option name="hints">
                                         <list />
                                       </option>
-                                      <option name="index" value="3" />
+                                      <option name="index" value="4" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
@@ -602,23 +623,6 @@
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="operateOnEach(values, v2, sum)" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
-                                      <option name="studentAnswer" />
-                                      <option name="useLength" value="false" />
-                                    </AnswerPlaceholder>
-                                    <AnswerPlaceholder>
-                                      <option name="hints">
-                                        <list />
-                                      </option>
-                                      <option name="index" value="4" />
-                                      <option name="initialState" />
-                                      <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="29" />
-                                      <option name="placeholderDependency" />
-                                      <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="{ v1, v2 -&gt;&#10;    v1 + v2&#10;}" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -654,7 +658,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793620000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -670,7 +674,7 @@
                       <option name="name" value="Extension Functions" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675891" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -726,12 +730,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793621000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die finalen Parameter:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine Klasse &lt;code&gt;AddressBook&lt;/code&gt;, welche eine finale veränderliche Liste von Adressen im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;fun contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine &lt;b&gt;Data Class&lt;/b&gt; namens &lt;code&gt;Address&lt;/code&gt;, welche (in der richtigen Reihenfolge) die finalen Parameter:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;&lt;code&gt;street&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;houseNumber&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;postalCode&lt;/code&gt; vom Typ Int&lt;/li&gt;&#10;      &lt;li&gt;&lt;code&gt;city&lt;/code&gt; vom Typ String&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    im Konstruktor entgegen nimmt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Stelle sicher, dass &lt;code&gt;setter &amp; getter&lt;/code&gt; entsprechend der Veränderlichkeit zur Verfügung gestellt werden.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Erstelle eine Klasse &lt;code&gt;AddressBook&lt;/code&gt;, welche eine finale veränderliche Liste von Adressen im Konstruktor entgegen nimmt und&#10;    passende &lt;code&gt;setter &amp; getter&lt;/code&gt; zur Verfügung stellt&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;fun contains(address: Address)&lt;/code&gt; der Klasse &lt;code&gt;AddressBook&lt;/code&gt; so, dass sie ein Boolean zurück&#10;    gibt, welches angibt,  ob das &lt;code&gt;AddressBook&lt;/code&gt; die eingegebene Adresse oder eine Addresse mit den gleichen Werten enthält.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -742,8 +746,8 @@
                       <option name="name" value="Classes" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepId" value="675892" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -756,6 +760,23 @@
                                         <list />
                                       </option>
                                       <option name="index" value="0" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="0" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="data class Address(val street: String, val houseNumber: String, val postalCode: Int, val city: String)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
@@ -772,7 +793,7 @@
                                       <option name="hints">
                                         <list />
                                       </option>
-                                      <option name="index" value="1" />
+                                      <option name="index" value="2" />
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
@@ -780,23 +801,6 @@
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="addresses.contains(address)" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
-                                      <option name="studentAnswer" />
-                                      <option name="useLength" value="false" />
-                                    </AnswerPlaceholder>
-                                    <AnswerPlaceholder>
-                                      <option name="hints">
-                                        <list />
-                                      </option>
-                                      <option name="index" value="2" />
-                                      <option name="initialState" />
-                                      <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="6" />
-                                      <option name="offset" value="0" />
-                                      <option name="placeholderDependency" />
-                                      <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="data class Address(val street: String, val houseNumber: String, val postalCode: Int, val city: String)" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -832,7 +836,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793622000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -848,7 +852,7 @@
                       <option name="name" value="Custom Setter &amp; Getter" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675893" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -921,7 +925,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793623000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -937,7 +941,7 @@
                       <option name="name" value="Nullability" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675894" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -954,10 +958,10 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="125" />
+                                      <option name="offset" value="35" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="value?.toUpperCase()" />
+                                      <option name="possibleAnswer" value="Char? = if (this.isBlank()) null else this[0]" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -971,10 +975,10 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="35" />
+                                      <option name="offset" value="125" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="Char? = if (this.isBlank()) null else this[0]" />
+                                      <option name="possibleAnswer" value="value?.toUpperCase()" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -1010,12 +1014,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793625000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle  ein Companion Objekt für die Klasse &lt;code&gt;Database&lt;/code&gt;, welches die Konstante &lt;code&gt;NAME_KEY&lt;/code&gt; mit dem value &lt;code&gt;&quot;MY_DB&quot;&lt;/code&gt;&#10;  bereitstellt.&#10;&lt;/p&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle  ein &lt;b&gt;Companion&lt;/b&gt; Objekt für die Klasse &lt;code&gt;Database&lt;/code&gt;, welches die Konstante &lt;code&gt;NAME_KEY&lt;/code&gt; mit dem value &lt;code&gt;&quot;MY_DB&quot;&lt;/code&gt;&#10;  bereitstellt.&#10;&lt;/p&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1026,8 +1030,8 @@
                       <option name="name" value="Companion Objects" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepId" value="675895" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -1082,7 +1086,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793626000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1098,7 +1102,7 @@
                       <option name="name" value="Interfaces" />
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
-                      <option name="stepId" value="0" />
+                      <option name="stepId" value="675896" />
                       <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
@@ -1171,11 +1175,11 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="0" />
+                      <option name="updateDate" value="1554793627000" />
                     </EduTask>
                   </list>
                 </option>
-                <option name="unitId" value="0" />
+                <option name="unitId" value="194042" />
               </Lesson>
             </list>
           </option>
