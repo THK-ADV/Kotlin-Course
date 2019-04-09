@@ -886,10 +886,10 @@
                                       <option name="initialState" />
                                       <option name="initializedFromDependency" value="false" />
                                       <option name="length" value="6" />
-                                      <option name="offset" value="262" />
+                                      <option name="offset" value="271" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="&#10;        get() = numerator.toDouble()/denominator" />
+                                      <option name="possibleAnswer" value="get() = numerator.toDouble()/denominator" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
