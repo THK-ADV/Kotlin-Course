@@ -1,1 +1,3 @@
-fun String.capitalize() = this.replaceFirst(this.first(), this.first().toUpperCase())
+fun String.invertCase() = this.map {
+    if (it.isUpperCase()) it.toLowerCase() else it.toUpperCase()
+}.joinToString(separator = "")

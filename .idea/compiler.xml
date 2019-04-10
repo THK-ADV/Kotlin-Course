@@ -36,6 +36,8 @@
       <module name="Getting_Started-String_Template_test" target="1.8" />
       <module name="Getting_Started-task1_main" target="1.8" />
       <module name="Getting_Started-task1_test" target="1.8" />
+      <module name="Getting_Started-Training_main" target="1.8" />
+      <module name="Getting_Started-Training_test" target="1.8" />
       <module name="Getting_Started-Variable_&amp;_Function_Types_main" target="1.8" />
       <module name="Getting_Started-Variable_&amp;_Function_Types_test" target="1.8" />
       <module name="Getting_Started-Variables_&amp;_Type-Inference_main" target="1.8" />

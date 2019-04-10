@@ -42,7 +42,7 @@
           </option>
           <option name="stepikChangeStatus" value="Up to date" />
           <option name="type" value="pycharm10 kotlin 1.2" />
-          <option name="updateDate" value="1554811505000" />
+          <option name="updateDate" value="1554812574000" />
           <option name="items">
             <list>
               <Lesson>
@@ -50,7 +50,7 @@
                 <option name="id" value="221020" />
                 <option name="index" value="1" />
                 <option name="name" value="Getting Started" />
-                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="stepikChangeStatus" value="Content changed" />
                 <option name="updateDate" value="1554794964000" />
                 <option name="taskList">
                   <list>
@@ -523,7 +523,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine unveränderliche Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hält, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion namens &lt;code&gt;operation&lt;/code&gt;, welche zwei Integer entgegen nimmt und ein Integer zurück gibt&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine Liste mit den durch die operation manipulierten Elementen zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den übergebenen Parametern sowie&#10;    der sum Funktion aufruft.&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;Erstelle eine unveränderliche Variable namens &lt;code&gt;sum&lt;/code&gt;, welche eine Funktion hält, die zwei Integer entgegen nimmt und die Summe dieser zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;Vervollständige die Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; so, dass sie (in der richtigen Reihenfolge):&#10;    &lt;ul&gt;&#10;      &lt;li&gt;eine Liste von Integern&lt;/li&gt;&#10;      &lt;li&gt;einen einzelnen Integer&lt;/li&gt;&#10;      &lt;li&gt;und eine Funktion namens &lt;code&gt;operation&lt;/code&gt;, welche zwei Integer entgegen nimmt und ein Integer zurück gibt&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;    entgegen nimmt und eine Liste mit den durch die operation manipulierten Elementen zurück gibt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;sumOnEach&lt;/code&gt; so, dass sie die zuvor erstellte Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; mit den folgenden Parametern (in der richtigen Reihenfolge) aufruft:&#10;    &lt;ul&gt;&#10;      &lt;li&gt;Die Liste von Integern, die bearbeitet werden sollen: &lt;code&gt;values&lt;/code&gt;&lt;/li&gt;&#10;      &lt;li&gt;Die Zahl, die auf die Elemente in der Liste addiert werden soll &lt;code&gt;v2&lt;/code&gt;&lt;/li&gt;&#10;      &lt;li&gt;Die Funktion, mit der die Addition durchgeführt wird &lt;code&gt;sum&lt;/code&gt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;&#10;&lt;/ol&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  In der Funktion &lt;code&gt;operateOnEach(...)&lt;/code&gt; bietet es sich an, die Funktion &lt;code&gt;map(...)&lt;/code&gt; der Liste zu verwenden.&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -658,12 +658,12 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554812573000" />
+                      <option name="updateDate" value="1554813512000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Extension Funktion&lt;/b&gt; namens &lt;code&gt;capitalize()&lt;/code&gt; für die Klasse &lt;code&gt;String&lt;/code&gt;, welche den String mit einem großen&#10;  Anfangsbuchstaben zurück gibt.&#10;&lt;/p&gt;&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Diese Funktion kann durch die Verkettung von Funktionen der String Klasse erreicht werden.&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle eine &lt;b&gt;Extension Funktion&lt;/b&gt; namens &lt;code&gt;invertCase()&lt;/code&gt; für die Klasse &lt;code&gt;String&lt;/code&gt;, welche einen String zurück gibt,&#10;bei dem alle vorherigen Großbuchstaben klein geschrieben und alle Kleinbuchstaben groß geschrieben sind.&#10;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  Hier könnten folgende Funktionen der Klasse String und CharArray hilfreich sein:&#10;  &lt;ul&gt;&#10;    &lt;li&gt;&lt;code&gt;isUpperCase()&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;code&gt;toLowerCase()&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;code&gt;toUpperCase()&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;code&gt;map(...)&lt;/code&gt;&lt;/li&gt;&#10;    &lt;li&gt;&lt;code&gt;joinToString(...)&lt;/code&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -675,7 +675,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675891" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -694,7 +694,7 @@
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
-                                      <option name="possibleAnswer" value="fun String.capitalize() = this.replaceFirst(this.first(), this.first().toUpperCase())" />
+                                      <option name="possibleAnswer" value="fun String.invertCase() = this.map {&#10;    if (it.isUpperCase()) it.toLowerCase() else it.toUpperCase()&#10;}.joinToString(separator = &quot;&quot;)" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -747,7 +747,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675892" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -836,7 +836,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554812574000" />
+                      <option name="updateDate" value="1554813513000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -853,7 +853,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675893" />
-                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="stepikChangeStatus" value="Up to date" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -925,7 +925,7 @@
                           </entry>
                         </map>
                       </option>
-                      <option name="updateDate" value="1554811503000" />
+                      <option name="updateDate" value="1554813514000" />
                     </EduTask>
                     <EduTask>
                       <option name="customPresentableName" />
@@ -1019,7 +1019,7 @@
                     <EduTask>
                       <option name="customPresentableName" />
                       <option name="descriptionFormat" value="HTML" />
-                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;p&gt;&#10;  Erstelle  ein &lt;b&gt;Companion&lt;/b&gt; Objekt für die Klasse &lt;code&gt;Database&lt;/code&gt;, welches die Konstante &lt;code&gt;NAME_KEY&lt;/code&gt; mit dem value &lt;code&gt;&quot;MY_DB&quot;&lt;/code&gt;&#10;  bereitstellt.&#10;&lt;/p&gt;&#10;&#10;&lt;/html&gt;" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;&#10;&lt;h3&gt;Aufgabe:&lt;/h3&gt;&#10;&#10;&lt;ol&gt;&#10;  &lt;li&gt;&#10;    Erstelle  ein &lt;b&gt;Companion&lt;/b&gt; Objekt für die Klasse &lt;code&gt;Database&lt;/code&gt;, welches die Konstante &lt;code&gt;NAME_KEY&lt;/code&gt; mit dem value &lt;code&gt;&quot;MY_DB&quot;&lt;/code&gt;&#10;    bereitstellt.&#10;  &lt;/li&gt;&#10;  &lt;li&gt;&#10;    Vervollständige die Funktion &lt;code&gt;printKey()&lt;/code&gt; so, dass sie den &lt;code&gt;NAME_KEY&lt;/code&gt; der &lt;code&gt;Database&lt;/code&gt; in der Konsole ausgibt.&#10;  &lt;/li&gt;&#10;&lt;/ol&gt;&#10;&#10;&lt;/html&gt;" />
                       <option name="feedbackLink">
                         <FeedbackLink>
                           <option name="link" />
@@ -1031,7 +1031,7 @@
                       <option name="record" value="-1" />
                       <option name="status" value="Unchecked" />
                       <option name="stepId" value="675895" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="files">
                         <map>
                           <entry key="src/Task.kt">
@@ -1051,6 +1051,23 @@
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="companion object {&#10;        const val NAME_KEY = &quot;MY_DB&quot;&#10;    }" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="false" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list />
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState" />
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="6" />
+                                      <option name="offset" value="107" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="TODO()" />
+                                      <option name="possibleAnswer" value="println(Database.NAME_KEY)" />
                                       <option name="selected" value="false" />
                                       <option name="status" value="Unchecked" />
                                       <option name="studentAnswer" />
@@ -1176,6 +1193,60 @@
                         </map>
                       </option>
                       <option name="updateDate" value="1554811505000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;br&gt;&#10;&lt;div class=&quot;hint&quot;&gt;&#10;  You can add hints anywhere in task text. Copy all hint div block and change its content.&#10;&lt;/div&gt;&#10;&lt;/html&gt;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="14" />
+                      <option name="name" value="Training" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="0" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="src/Task.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="src/Task.kt" />
+                                <option name="text" value="// type your solution here" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test/Tests.kt">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="test/Tests.kt" />
+                                <option name="text" value="import org.junit.Assert&#10;import org.junit.Test&#10;&#10;class Test {&#10;    @Test fun testSolution() {&#10;        //TODO: implement your test here&#10;        Assert.assertTrue(&quot;Tests not implemented for the task&quot;, false)&#10;    }&#10;}" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="0" />
                     </EduTask>
                   </list>
                 </option>

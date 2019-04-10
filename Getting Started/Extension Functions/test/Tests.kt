@@ -4,7 +4,7 @@ import org.junit.Test
 
 class Test {
     @Test fun testSolution() {
-        val string = "hello"
-        assertEquals("Hello", string.capitalize())
+        val string = "hElLo"
+        assertEquals("HeLlO", string.invertCase())
     }
 }
